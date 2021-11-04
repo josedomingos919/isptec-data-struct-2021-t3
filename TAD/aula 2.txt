@@ -1,0 +1,27 @@
+Lista sequencial ( Vetor )
+Lista Linkada
+
+1- Uma lista linear sequencial tem os seu elementos organizados numa squencia física na memória 
+2- Os elementos são guardados em um vetor
+3- A alocação da memória é estatica 
+
+Vantagens de utilizar lista sequencial
+
+ - Acesso rápido aos elementos da lista 
+ - Temo de acesso constante
+
+Desvantagens 
+ - Tamanho do uso apropriado não pode ser previsto
+ - Pra inserir ou eliminar um elemento é necessário manipular outros elementos
+ - Desperdício de memória
+
+Se desejamos representar uma estrutura de dados como uma lista sequencial devemos definir um TAD:
+
+TAD Lista
+
+ - Criar lista 
+ - Excluir item na lista
+ - Retirar Item 
+ - Localizar item na lista
+ - Imprimir lista
+ - Eliminar
