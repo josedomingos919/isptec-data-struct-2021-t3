@@ -46,9 +46,13 @@ LCS  * _remove( LCS * l);
 
 char * _sortName( LCS * l );
 
-void _print( LCS * l );
-
-
+void _print( LCS * l, LCS * start ) {
+	
+	print("Imprimir %s", l->name);
+	
+	if( l != start )
+		_print( l->next,  start );
+}
 
 void _destroy( LCS * l){
 	free( l );
